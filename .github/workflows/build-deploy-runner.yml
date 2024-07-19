@@ -44,7 +44,7 @@ jobs:
 
       # Deploy an Azure Container Instance
       - name: Deploy to Azure Container Instances
-        uses: Azure/aci-deploy@v1
+        uses: Azure/aci-deploy@v1.1.3
         with:
           # Name of the Resource Group in which the Container Instance will be created
           resource-group: ${{ env.RESOURCE_GROUP }}
