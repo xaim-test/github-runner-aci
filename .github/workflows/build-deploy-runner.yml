@@ -15,8 +15,8 @@ env:
   IMAGE_NAME: runner
   IMAGE_TAG: ${{ github.run_number }}
   RUNNER_REPOSITORY_URL: https://github.com/CharleneMcKeown/github-runner-aci
-  RESOURCE_GROUP: mmckeown7rg
-  LOCATION: westeurope
+  RESOURCE_GROUP: rg-ops-jumpbox-eastus2-dev
+  LOCATION: eastus2
   
 
 jobs:
